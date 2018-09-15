@@ -36,7 +36,7 @@ end
 
 def reverse_array(array)
   new_array = []
-  (0...length).reverse_each do |element|
-    
-    
+  array.reverse.each_with_index do |element, index|
+    new_array.push(element)
+  return new_array  
 end
