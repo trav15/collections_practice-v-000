@@ -3,7 +3,7 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  new_array = array.sort do |a, b|
+  return new_array = array.sort do |a, b|
     if a==b 
       0 
     elsif a < b 
