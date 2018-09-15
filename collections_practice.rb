@@ -38,5 +38,6 @@ def reverse_array(array)
   new_array = []
   array.reverse.each_with_index do |element, index|
     new_array.push(element)
+  end
   return new_array  
 end
