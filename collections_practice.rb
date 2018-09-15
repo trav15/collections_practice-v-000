@@ -49,7 +49,5 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.map do |element|
-    element.start_with?("a")
-  end
+  found = array.select {|element| element.start_with?("a")}
 end
