@@ -51,4 +51,5 @@ end
 def find_a(array)
   array.map do |element|
     element.start_with?("a")
+  end
 end
