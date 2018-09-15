@@ -47,3 +47,5 @@ def kesha_maker(array)
   array.each do |name|
     name[3..4] = "$"
   end
+  return kesha_array
+end
