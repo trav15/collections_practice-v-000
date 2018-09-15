@@ -51,3 +51,7 @@ end
 def find_a(array)
   found = array.select {|element| element.start_with?("a")}
 end
+
+def sum_array(array)
+  
+end
